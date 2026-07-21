@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{19F7E6C4-F80A-3A96-8C56-231FB54FEB60}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\duong\Downloads\SFML-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\duong\Downloads\SFML-2.6.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PPS\Baitap\game\LTNC-GameN6-main\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/PPS/Baitap/game/LTNC-GameN6-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\cmake-3.31.12-windows-x86_64\bin\cmake.exe -SE:/PPS/Baitap/game/LTNC-GameN6-main "-BE:/GAME LTNC" --check-stamp-file "E:/GAME LTNC/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GAME LTNC\CMakeFiles\3.31.12\CMakeCCompiler.cmake;E:\GAME LTNC\CMakeFiles\3.31.12\CMakeCXXCompiler.cmake;E:\GAME LTNC\CMakeFiles\3.31.12\CMakeRCCompiler.cmake;E:\GAME LTNC\CMakeFiles\3.31.12\CMakeSystem.cmake;E:\PPS\Baitap\game\LTNC-GameN6-main\CMake\FindSFML.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GAME LTNC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/PPS/Baitap/game/LTNC-GameN6-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\cmake-3.31.12-windows-x86_64\bin\cmake.exe -SE:/PPS/Baitap/game/LTNC-GameN6-main "-BE:/GAME LTNC" --check-stamp-file "E:/GAME LTNC/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GAME LTNC\CMakeFiles\3.31.12\CMakeCCompiler.cmake;E:\GAME LTNC\CMakeFiles\3.31.12\CMakeCXXCompiler.cmake;E:\GAME LTNC\CMakeFiles\3.31.12\CMakeRCCompiler.cmake;E:\GAME LTNC\CMakeFiles\3.31.12\CMakeSystem.cmake;E:\PPS\Baitap\game\LTNC-GameN6-main\CMake\FindSFML.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeCInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeRCInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Compiler\MSVC.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\Windows.cmake;E:\cmake-3.31.12-windows-x86_64\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GAME LTNC\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="E:\GAME LTNC\ZERO_CHECK.vcxproj">
+      <Project>{62B6689D-369F-3881-943E-952075FA2ABE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\01_Intro\Source\01_Intro.vcxproj">
+      <Project>{618460C7-AB89-378E-8459-E2F382F89AD0}</Project>
+      <Name>01_Intro</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\02_Resources\Source\02_Resources.vcxproj">
+      <Project>{4A5C3D68-BEA3-385E-BFB6-47C2593A6BDB}</Project>
+      <Name>02_Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\03_World\Source\03_World.vcxproj">
+      <Project>{DCC9D1B8-45FA-3B6E-BB06-A20C8A4A3627}</Project>
+      <Name>03_World</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\04_Input\Source\04_Input.vcxproj">
+      <Project>{E929F354-1234-3E2C-ACF6-4AE4B62A8EDA}</Project>
+      <Name>04_Input</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\05_States\Source\05_States.vcxproj">
+      <Project>{48A2DBD6-7664-3B09-B034-2E6E3E24F3D6}</Project>
+      <Name>05_States</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\06_Menus\Source\06_Menus.vcxproj">
+      <Project>{2C22427E-B6FE-3CF1-ACA0-D78AD4179A70}</Project>
+      <Name>06_Menus</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\07_Gameplay\Source\07_Gameplay.vcxproj">
+      <Project>{C88601D3-6968-3373-BD3A-E67A03D82527}</Project>
+      <Name>07_Gameplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\08_Graphics\Source\08_Graphics.vcxproj">
+      <Project>{8F387DB5-8DED-3DC7-8215-BA67730AAB6F}</Project>
+      <Name>08_Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\09_Audio\Source\09_Audio.vcxproj">
+      <Project>{8F1EA5BB-545A-3184-9E7B-E1746238F0F0}</Project>
+      <Name>09_Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\GAME LTNC\10_Network\Source\10_Network.vcxproj">
+      <Project>{384B6A26-E80C-3157-BE29-EF43E74268F3}</Project>
+      <Name>10_Network</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

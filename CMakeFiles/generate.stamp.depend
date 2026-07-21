@@ -1,0 +1,32 @@
+# CMake generation dependency list for this directory.
+E:/GAME LTNC/CMakeFiles/3.31.12/CMakeCCompiler.cmake
+E:/GAME LTNC/CMakeFiles/3.31.12/CMakeCXXCompiler.cmake
+E:/GAME LTNC/CMakeFiles/3.31.12/CMakeRCCompiler.cmake
+E:/GAME LTNC/CMakeFiles/3.31.12/CMakeSystem.cmake
+E:/PPS/Baitap/game/LTNC-GameN6-main/CMake/FindSFML.cmake
+E:/PPS/Baitap/game/LTNC-GameN6-main/CMakeLists.txt
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCXXInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeRCInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/MSVC-C.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/MSVC-CXX.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Compiler/MSVC.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-C.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-MSVC-C.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows.cmake
+E:/cmake-3.31.12-windows-x86_64/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake

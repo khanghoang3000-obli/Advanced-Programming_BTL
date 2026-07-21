@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\Aircraft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\SceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\SpriteNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PPS\Baitap\game\LTNC-GameN6-main\03_World\Source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8C7A7239-623D-3B31-9C93-21488215BD97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Aircraft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\BloomEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\CommandQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\DataTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\EmitterNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\GameState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\MenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\PauseState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\ParticleNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Pickup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\PostEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\SceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\SettingsState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\SpriteNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\TextNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\StateStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\TitleState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\PPS\Baitap\game\LTNC-GameN6-main\08_Graphics\Source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8C7A7239-623D-3B31-9C93-21488215BD97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

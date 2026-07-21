@@ -1,0 +1,23 @@
+﻿  Building Custom Rule E:/PPS/Baitap/game/LTNC-GameN6-main/05_States/Source/CMakeLists.txt
+  Main.cpp
+  Aircraft.cpp
+  Application.cpp
+  Command.cpp
+  CommandQueue.cpp
+  Entity.cpp
+  GameState.cpp
+  MenuState.cpp
+E:\PPS\Baitap\game\LTNC-GameN6-main\05_States\Source\MenuState.cpp(106,7): warning C4996: 'sf::Text::setColor': was declared deprecated
+E:\PPS\Baitap\game\LTNC-GameN6-main\05_States\Source\MenuState.cpp(109,24): warning C4996: 'sf::Text::setColor': was declared deprecated
+  PauseState.cpp
+  Player.cpp
+  SceneNode.cpp
+  SpriteNode.cpp
+  State.cpp
+  StateStack.cpp
+  TitleState.cpp
+  Utility.cpp
+  World.cpp
+  Generating Code...
+E:\PPS\Baitap\game\LTNC-GameN6-main\05_States\Source\Aircraft.cpp(19): warning C4715: 'toTextureID': not all control paths return a value
+  05_States.vcxproj -> E:\GAME LTNC\05_States\Source\Release\05_States.exe

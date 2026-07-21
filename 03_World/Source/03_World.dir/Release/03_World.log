@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/PPS/Baitap/game/LTNC-GameN6-main/03_World/Source/CMakeLists.txt
+  Main.cpp
+  Aircraft.cpp
+  Entity.cpp
+  Game.cpp
+  SceneNode.cpp
+  SpriteNode.cpp
+  World.cpp
+  Generating Code...
+  03_World.vcxproj -> E:\GAME LTNC\03_World\Source\Release\03_World.exe
